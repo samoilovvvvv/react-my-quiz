@@ -1,0 +1,36 @@
+.Button {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin-right: 20px;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.Button:hover {
+  cursor: pointer;
+}
+
+.Button:focus {
+  outline: none;
+}
+
+.Button:active {
+  box-shadow: inset 0px 0px 2px 3px rgba(0, 0, 0, .1);
+}
+
+.Button:disabled {
+  background: #cccccc;
+  color: #000000;
+  cursor: not-allowed;
+}
+
+.to-other-tests {
+  background: #e66465;
+}
+
+.retry {
+  background: #9198e5;
+}

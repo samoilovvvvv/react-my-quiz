@@ -1,0 +1,16 @@
+.Layout {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  h1 {
+    font-size: 2.5em;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background: linear-gradient(315deg, #e66465 1%, #9198e5 75%);
+  }
+}

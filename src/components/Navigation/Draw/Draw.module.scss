@@ -1,0 +1,33 @@
+.Draw {
+  position: absolute;
+  background: #ffffff;
+  top: 0;
+  bottom: 0;
+  width: 300px;
+  z-index: 90;
+  transition: transform .3s;
+
+  ul {
+    list-style: none;
+    padding: 15px 25px;
+    margin: 0;
+
+    li {
+      margin-top: 5px;
+
+      a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 2em;
+      }
+
+      a:hover, a.active {
+        color: #8c8c8c;
+      }
+    }
+  }
+}
+
+.Draw.close {
+  transform: translateX(-300px);
+}
