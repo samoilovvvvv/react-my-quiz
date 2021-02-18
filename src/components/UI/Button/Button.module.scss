@@ -27,10 +27,10 @@
   cursor: not-allowed;
 }
 
-.to-other-tests {
+.to-other-tests, .success {
   background: #e66465;
 }
 
-.retry {
+.retry, .primary {
   background: #9198e5;
 }

@@ -1,0 +1,25 @@
+.Input {
+  margin-bottom: 20px;
+
+  label {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  input {
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #cccccc;
+    width: 100%;
+    box-sizing: border-box;
+    height: 30px;
+    font-size: 1.2em;
+  }
+
+}
+
+.Input.invalid {
+  color: #E32636;
+}
