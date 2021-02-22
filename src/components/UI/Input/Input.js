@@ -8,7 +8,7 @@ const Input = props => {
   }
   
   const cls = ['Input']
-  const htmlFor = Math.random()
+  const htmlFor = `input-${Math.random()}`
   
   if (isInvalid(props)) {
     cls.push('invalid')

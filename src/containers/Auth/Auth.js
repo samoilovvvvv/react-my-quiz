@@ -75,7 +75,7 @@ export default class Auth extends Component {
         <div>
           <h1>Авторизация</h1>
           
-          <form onSubmit={(event) => event.preventDefault()}>
+          <form onSubmit={event => event.preventDefault()}>
             
             {this.renderInputs()}
             
